@@ -1,0 +1,7 @@
+# Allow priv_app (where this APK lives) to write the leds sysfs nodes.
+# The exact label varies by kernel; sysfs_leds is the common one on AOSP.
+# If your device labels these differently, run:
+#   adb shell ls -lZ /sys/class/leds/lcd-backlight/brightness
+# and replace the type below.
+allow priv_app sysfs_leds file { read write open getattr }
+allow priv_app sysfs file { read write open getattr }

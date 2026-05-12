@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Reserved for any signature|privileged permissions the app needs later
+  (e.g. STATUS_BAR_SERVICE). Currently empty — TileService binding is
+  granted to any installed app, so no privapp allowlist entry is required
+  for the QS tile itself.
+-->
+<permissions>
+    <privapp-permissions package="rocks.sackof.backlight">
+    </privapp-permissions>
+</permissions>

@@ -1,0 +1,6 @@
+id=backlight-control
+name=Daylight Backlight Control
+version=v0.1
+versionCode=1
+author=sean
+description=System app + sysfs permissions for the Daylight DC-1 dual-backlight control (main + amber) with a Quick Settings tile.
