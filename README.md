@@ -4,6 +4,8 @@ When you install a GSI on the Daylight DC-1, there's no way to adjust the amber-
 
 It's packaged as a magisk app because it's just a wrapper over writing directly to /sys/class/leds/lcd-backlight/brightness (and the amber version).
 
+![screenshot.png]
+
 ## Installation
 
 - clone the repo
