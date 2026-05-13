@@ -6,7 +6,7 @@ It's packaged as a magisk app because it's just a wrapper over writing directly 
 
 ![screenshot](/screenshot.png)
 
-## Installation
+## [Installation](#installation)
 
 - download latest release in [releases](https://github.com/adiktofsugar/daylight-dc-1-temp-control/releases) 
 - `adb push dist/backlight-control-magisk.zip /sdcard`
@@ -18,7 +18,7 @@ It's packaged as a magisk app because it's just a wrapper over writing directly 
 
 - clone the repo
 - run `build.sh`
-- follow instructions in [[#Installation]]
+- follow instructions in [Installation](#installation)
 
 ### Required software
 - java 21+
